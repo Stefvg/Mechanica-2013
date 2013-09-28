@@ -17,6 +17,6 @@ K2 p3, K1 p5, K4 p8, B3 p4, B3 p8,
 NorfairKing
 K3 p3, K2 p5, K2 p7, B1 p5, B1 p8, 
 
-Nelis:
+nooby4ever:
 K4 p3, K1 p7, B1 p4, B2 p4, B3 p6, B4 p9
 
