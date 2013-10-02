@@ -1,0 +1,42 @@
+#+SEQ_TODO: TODO(t) | DELEGATED(l)  OPTIONAL(o) DONE(d)
+
+* DELEGATED Reeks 0
+  DEADLINE: <2013-10-08 Die>
+** TODO Deel 1
+   - [ ] K1 KarenRaets 
+   - [ ] K2 Matzy93    
+   - [ ] K3 NorfairKing
+   - [ ] K4 nooby4ever 
+   - [ ] B1 stefvg     
+   - [ ] B2 KarenRaets 
+   - [ ] B3 Matzy93    
+** TODO Deel 2
+   - [ ] K1 Norfairking 
+   - [ ] K2 nooby4ever
+   - [ ] K3 stefvg
+   - [ ] B1 KarenRaets 
+   - [ ] B2 Matzy93    
+   - [ ] B3 NorfairKing
+** TODO Deel 3
+   - [ ] K1 nooby4ever     
+   - [ ] K2 stefvg
+   - [ ] K3 KarenRaets 
+   - [ ] K4 Matzy93    
+   - [ ] B1 NorfairKing
+   - [ ] B2 nooby4ever 
+   - [ ] B3 stefvg     
+   - [ ] B4 KarenRaets
+* TODO Reeks 1
+* TODO Reeks 2
+* TODO Reeks 3
+* TODO Reeks 4
+* TODO Reeks 5
+* TODO Reeks 6
+* TODO Reeks 7
+* TODO Reeks 8
+* TODO Reeks 9
+* TODO Reeks 10
+* TODO Reeks 11
+* TODO Reeks 12
+* TODO Reeks 13
+* TODO Reeks 14
