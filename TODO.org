@@ -16,13 +16,13 @@
    - [ ] K3 stefvg
    - [ ] B1 KarenRaets 
    - [ ] B2 Matzy93    
-   - [ ] B3 NorfairKing
+   - [?] B3 NorfairKing
 ** TODO Deel 3
    - [ ] K1 nooby4ever     
    - [ ] K2 stefvg
    - [ ] K3 KarenRaets 
    - [ ] K4 Matzy93    
-   - [ ] B1 NorfairKing
+   - [X] B1 NorfairKing
    - [ ] B2 nooby4ever 
    - [ ] B3 stefvg     
    - [ ] B4 KarenRaets
