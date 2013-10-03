@@ -1,9 +1,9 @@
 #+SEQ_TODO: TODO(t) | DELEGATED(l)  OPTIONAL(o) DONE(d)
 
 * DELEGATED Reeks 0
-  DEADLINE: <2013-10-08 Die>
+  DEADLINE: <2013-10-09 Mit>
 ** TODO Deel 1
-   - [ ] K1 KarenRaets 
+   - [?] K1 KarenRaets 
    - [ ] K2 Matzy93    
    - [ ] K3 NorfairKing
    - [ ] K4 nooby4ever 
@@ -11,7 +11,7 @@
    - [ ] B2 KarenRaets 
    - [ ] B3 Matzy93    
 ** TODO Deel 2
-   - [ ] K1 Norfairking 
+   - [X] K1 Norfairking 
    - [ ] K2 nooby4ever
    - [ ] K3 stefvg
    - [ ] B1 KarenRaets 
