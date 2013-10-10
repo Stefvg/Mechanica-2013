@@ -23,6 +23,77 @@
 \subsection{K2}
 
 \subsection{K3}
+\subsubsection*{gegeven}
+$a=0.5m$, $\theta=30^\circ$, $v_O=2\frac{m}{s}$.
+\subsubsection*{gevraagd}
+$v_{cx}$, $v_{cy}$, $a_{cx}$, $a_{cy}$
+\subsubsection*{berekeningen}
+De plaats van $C$ en $A$ in functie van de hoek valt af te leiden via Pythagoras.
+\[
+r_{c} =
+\begin{pmatrix}
+2a\cos{(\theta(t))}\\
+2a\sin{(\theta(t))}
+\end{pmatrix}
+\text{ en }
+r_{a} =
+\begin{pmatrix}
+2a\cos{(\theta(t))}\\
+0
+\end{pmatrix}
+\]
+Hieruit leiden we de snelheid en de versnelling af.
+\[
+v_{c} =
+\begin{pmatrix}
+-2a\sin{(\theta(t))}\cdot\omega(t)\\
+2a\cos{(\theta(t))}\cdot\omega(t)
+\end{pmatrix}
+\text{ en }
+r_{a} =
+\begin{pmatrix}
+-2a\sin{(\theta(t))}\cdot\omega(t)\\
+0
+\end{pmatrix}
+\]
+\[
+a_{c} =
+\begin{pmatrix}
+\alpha(t)\cdot (-2a\sin({\theta(t)})-2a\cos({\theta(t))}\cdot\omega(t)^{2}\\
+\alpha(t)\cdot (2a\cos5({\theta(t)})-2a\sin({\theta(t))}\cdot\omega(t)^{2}
+\end{pmatrix}
+\text{ en }
+r_{a} =
+\begin{pmatrix}
+\alpha(t)\cdot (-2a\sin({\theta(t)})-2a\cos({\theta(t))}\cdot\omega(t)^{2}\\
+0
+\end{pmatrix}
+\]
+We zien dat de bewegingen van $A$ en $C$ precies gelijk zijn in de $x$ richting.
+We kennen nu ook de volledige plaatsfunctie van $A$.
+\[
+r_{a} = 
+\begin{pmatrix}
+2a\cos{(\theta(t))}\\
+0
+\end{pmatrix}
+=
+\begin{pmatrix}
+v_{O}\\
+0
+\end{pmatrix}
+\cdot t
++
+\begin{pmatrix}
+2a\cos{\theta}\\
+0
+\end{pmatrix}
+\]
+Dit is in functie van t. Hier halen we $\theta$ in functie van $t$ uit.
+\[
+\theta(t) = \arccos{\left(\frac{v_{O}t + 2a\cos{\theta}}{2a}\right)}
+\]
+In deze vergelijking weten we alles.
 
 \subsection{K4}
 
