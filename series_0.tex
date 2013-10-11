@@ -222,6 +222,99 @@ Hierin kennen we opnieuw alle 'onbekenden'. Na invullen blijkt dat $a=0.36\frac{
 \subsection{K3}
 
 \subsection{K4}
+\subsubsection*{gegeven}
+$|OA|=0.35m$, $|AB| = 0.60m$, $\theta = \hat{AOB} = 45^\circ$, $180^\circ-\gamma = \hat{BCO} = 180^\circ-60^\circ$, $\omega_{OA} = 6\frac{rad}{s}$
+\subsubsection*{gevraagd}
+$\omega_{CB}$
+\subsubsection*{berekeningen}
+We zullen $\omega_{BC}$ bepalen met een tussenstap.
+Stap 1: We bepalen een punt waarvan we de snelheid zoeken. We kiezen hier voor $P=A$.\\
+Stap 2: We bepalen het bewegende assenstelsel $O'x’y’z’$ We kiezen hier voor een translerend bewegend assenstelsel met $O'=A$ en $x'=AB$. Omdat dit een translerend assenstelsel is, dat niet roteerd, is: $e_{x} = e_{x'}$, $e_{z} = e_{z'}$, $e_{z} = e_{z'}$.
+We weten dat:
+\[
+\vec{v_{ba}} = \vec{v_{bs}} + \vec{v_{br}}
+\]
+Nu zien we dat:
+\[
+\vec{v_{bs}} = \vec{v_{A}} = \omega_{OA} \times (\vec{r_{A}} - \vec{r_{O}}) = 
+\begin{vmatrix}
+\vec{e_{x}} & \vec{e_{x}} & \vec{e_{x}}\\
+0 & 0 & \omega_{OA}\\
+|OA|\cos{\theta(t)} & |OA|\sin{\theta(t)} & 0
+\end{vmatrix} 
+=
+\begin{pmatrix}
+-\omega_{OA} \cdot |OA|\sin{\theta(t)}\\
+-\omega_{OA} \cdot |OA|\cos{\theta(t)}
+0
+\end{pmatrix}
+\]
+We weten ook dat:
+\[
+\vec{v_{br}} = \omega_{AB} \times (\vec{r_{B}} - \vec{r_{A}}) = 
+\begin{vmatrix}
+\vec{e_{x}} & \vec{e_{x}} & \vec{e_{x}}\\
+0 & 0 & \omega_{AB}\\
+|AB| & 0 & 0
+\end{vmatrix} 
+=
+\begin{pmatrix}
+0\\
+-\omega_{AB} \cdot |AB|\\
+0
+\end{pmatrix}
+\]
+Ten slotte weten we nog dat:
+\[
+\vec{v_{ba}} = \omega_{CB} \times (\vec{r_{B}} - \vec{r_{C}}) = 
+\begin{vmatrix}
+\vec{e_{x}} & \vec{e_{x}} & \vec{e_{x}}\\
+0 & 0 & \omega_{CB}\\
+|BC|\cos{\gamma(t)} & |BC|\sin{\gamma(t)} & 0
+\end{vmatrix} 
+=
+\begin{pmatrix}
+-\omega_{CB} \cdot |BC|\sin{\gamma(t)}\\
+-\omega_{CB} \cdot |BC|\cos{\gamma(t)}\\
+0
+\end{pmatrix}
+\]
+Als we dit allemaal samen stellen is het:
+\[
+\left\lbrace
+\begin{array}{l r}
+-\omega_{OA} \cdot |OA|\sin{\theta(t)} + 0 &= -\omega_{CB} \cdot |BC|\sin{\gamma(t)}\\
+-\omega_{OA} \cdot |OA|\cos{\theta(t)} + -\omega_{AB} \cdot |AB| &= -\omega_{CB} \cdot |BC|\cos{\gamma(t)}\\
+\end{array}
+\right.
+\]
+De eerste vergelijking hier in:
+\[
+-\omega_{OA} \cdot |OA|\sin{\theta(t)}= -\omega_{CB} \cdot |BC|\sin{\gamma(t)}
+\]
+is om te vormen naar
+\[
+\omega_{CB} = \frac{\omega_{OA} \cdot |OA|\sin{\theta(t)}}{|BC|\sin{\gamma(t)}}
+\]
+In deze vergelijking kennen we enkel $|BC|$ niet.\\
+We kunnen $|OC|$ berekenen via de cosinusregel: 
+\[
+|OB| = \sqrt{|OA|^{2} + |AB|^{2} - 2 \cdot |OA| \cdot |AB| \cdot \cos(\hat{OAB})}
+\]
+Nu weten we dat $|OB| = 0.883m$
+We weten volgens de sinusregel dat:
+\[
+\frac{\sin(45^\circ-\hat{BOC})}{|AB|} = \frac{\sin(\hat{OAB})}{|OB|} \Leftrightarrow \hat{BOC} = 16.3^\circ
+\]
+Volgens diezelfde sinusregel weten we nu ook dat
+\[
+\frac{\sin(\hat{BOC})}{|OB|} = \frac{\sin(\hat{BOC})}{|BC|}
+\Leftrightarrow |BC| = 0.28m
+\]
+Nu we ook $|BC|$ kennen rest er ons enkel nog de formule voor $\omega_{CB}$ in te vullen.
+\[
+\omega_{CB} = \frac{\omega_{OA} \cdot |OA|\sin{\theta(t)}}{|BC|\sin{\gamma(t)}} = 6\;\frac{rad}{s}
+\]
 
 \subsection{B1}
 \subsubsection*{gegeven}
