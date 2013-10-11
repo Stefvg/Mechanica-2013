@@ -129,8 +129,8 @@ n= \frac{|v|^2}{4g} = \frac{250^2}{4 \cdot 10} = 1562.5m
 
 \subsection{K3}
 \subsubsection*{gegeven}
-$r_{x}(t) = 3t^{2}$, 
-$v_{y}(t)= -\sqrt{13}$
+$r_{x}(t) = 3t^{2} m$, 
+$v_{y}(t)= -\sqrt{13} \frac{m}{s}$
 \subsubsection*{gevraagd}
 $a_{t}$, $a_{n}$
 \subsubsection*{berekeningen}
@@ -155,6 +155,60 @@ a_{n} = 3.1\frac{m}{s^{2}} \text{ en } a_{t} = 5.14\frac{m}{s^{2}}
 \]
 
 \subsection{B1}
+\subsubsection*{gegeven}
+$R=-0.08m$, $v_{py} = -0.06 \frac{m}{s}$, $\theta = 60^\circ$
+\subsubsection*{gevraagd}
+$\omega(\theta)$, $\alpha(\theta)$, $a_{p}$
+\subsubsection*{berekeningen}
+We kunnen de plaatsfunctie van $P$ bepalen.
+\[
+r_{p}(t)=
+\begin{pmatrix}
+-\cos{(\theta(t)}\cdot R\\
+-\sin{(\theta(t)}\cdot R
+\end{pmatrix}
+\] 
+We kunnen dit afleiden naar de tijd, maar we weten dat de snelheid van $P$ in de $y$ richting constant is:
+\[
+v_{p}(t)=
+\begin{pmatrix}
+\omega(t)\sin{(\theta(t))}\cdot R\\
+v_{py}
+\end{pmatrix}
+\]
+met $v_{py} = -\omega(t)\cos{(\theta(t))}\cdot R$.
+\[
+a_{p}(t)=
+\begin{pmatrix}
+R\cdot(\cos{(\theta(t))}\omega(t)^{2} + \alpha(t)\sin{(\theta(t))})\\
+R\cdot(-\sin{(\theta(t))}\omega(t)^{2} + \alpha(t)\cos{(\theta(t))})
+\end{pmatrix}
+\]
+met $a_{py} = 0$ want $v_{py}$ is constant.
+\\\\
+Hieruit kunnen we halen dat 
+\[
+\omega(t) = -\frac{v_{py}}{\cos{(\theta(t))}\cdot R}
+\]
+Dit is $1.5 \frac{rad}{s}$ in de gegeven positie.\\
+Nu weten we dat
+\[
+0=R\cdot(-\sin{(\theta(t))}\omega(t)^{2} + \alpha(t)\cos{(\theta(t))})
+\]
+en dat wordt:
+\[
+\alpha(t) = -\tan{(\theta(t))}\omega(t)^{2}
+\]
+Hierin kennen we alle 'onbekenden'. Na invullen is $\alpha = -3.9\frac{rad}{s^{2}}$.\\
+We weten dat
+\[
+a_{t} = R\cdot\alpha(t) \text{ en } a_{n} = R\cdot \omega(t)^{2}
+\]
+en
+\[
+a = \sqrt{a_{t}^{2} + a_{n}^{2}}
+\]
+Hierin kennen we opnieuw alle 'onbekenden'. Na invullen blijkt dat $a=0.36\frac{m}{s^{2}}$ op het gegeven moment.
 
 \subsection{B2}
 
