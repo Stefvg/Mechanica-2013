@@ -5,7 +5,7 @@
 ** TODO Deel 1
    - [ ] K1 KarenRaets 
    - [ ] K2 Matzy93    
-   - [?] K3 NorfairKing
+   - [X] K3 NorfairKing
    - [ ] K4 nooby4ever 
    - [ ] B1 stefvg     
    - [ ] B2 KarenRaets 
@@ -16,7 +16,7 @@
    - [ ] K3 stefvg
    - [ ] B1 KarenRaets 
    - [ ] B2 Matzy93    
-   - [?] B3 NorfairKing
+   - [X] B3 NorfairKing
 ** TODO Deel 3
    - [ ] K1 nooby4ever     
    - [ ] K2 stefvg
