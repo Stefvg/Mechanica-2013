@@ -26,7 +26,16 @@
    - [ ] B2 nooby4ever 
    - [ ] B3 stefvg     
    - [ ] B4 KarenRaets
-* TODO Reeks 1
+* DELEGATED Reeks 1
+  CLOSED: [2013-10-12 Sam 19:09] DEADLINE: <2013-10-16 Mit>
+  - [ ] K1 Matzy93
+  - [ ] K2 NorfairKing
+  - [ ] K3 nooby4ever
+  - [ ] K4 stefvg
+  - [ ] B1 KarenRaets
+  - [ ] B2 Matzy93
+  - [ ] B3 NorfairKing
+
 * TODO Reeks 2
 * TODO Reeks 3
 * TODO Reeks 4
