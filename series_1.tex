@@ -1,0 +1,72 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+
+\title{Oplossingen Mechanics 2013}
+\author{TODO}
+
+
+\begin{document}
+
+\maketitle
+\pagebreak
+\tableofcontents
+\pagebreak
+
+\section*{K3}
+\section*{B4}
+We kunnen het tweede postulaat van Newton op beide blokken toepassen, in beide dimensies:\\
+Blok $m_1$:
+\[
+\begin{array}{l l}
+x: & F - F_{w_{m_1,m_2}} - F_{w_{m_1,grond}} = m a_{m_1x}\\
+y: & F_{n_{m_1}} -F_{m_1,m_2} - F_{z_{m_1}} = m a_{m_1y}\\
+\end{array}
+\]
+Blok $m_2$:
+\[
+\begin{array}{l l}
+x: & F_{w_{m_1,m_2}} - \cos(\theta)F_{trek} = m a_{m_2x}\\
+y: & \sin(\theta)F_{trek} + F_{m_1,m_2} - F_{z_{m_2}} = m a_{m_2y}\\
+\end{array}
+\]
+Dit lijkt een monster van een stelsel - (Dat is het ook!) - maar er zijn een aantal dingen die we weten.
+\[
+a_{m_1y} = 0 \text{ ,  } m a_{m_2x}=0 \text{ ,  }  m a_{m_2y}=0
+\]
+\[
+F_{w_{m_1,m_2}} = f_2 F_{m_1,m_2} \text{ ,  }F_{w_{m_1,grond}} = f_1 F_{n_{m_1}}
+\]
+\[
+F_{z_{m_1}} = m_1 g \text{ ,  } F_{z_{m_2}} = m_2 g
+\]
+
+Als we dit allemaal invullen krijgen we:
+\[
+\left\lbrace
+\begin{array}{l}
+F - f_2 F_{m_1,m_2} - f_1 F_{n_{m_1}} = m a_{m_1x}\\
+F_{n_{m_1}} - F_{m_1,m_2} -  m_1 g  = 0\\
+f_2 F_{m_1,m_2} - \cos(\theta)F_{trek} = 0\\
+\sin(\theta)F_{trek} + F_{m_1,m_2} - m_2 g = 0\\
+\end{array}
+\right.
+\]
+Dit kunnen we omvormen tot een stelsel dat makkelijk op te lossen is.
+
+\[
+\left\lbrace
+\begin{array}{l l l l l}
+f_2 F_{m_1,m_2} &+ f_1 F_{n_{m_1}} &+ 0 & m a_{m_1x} &=F\\
+- F_{m_1,m_2} &+ F_{n_{m_1}}  &+ 0 &+ 0 &= m_1 g\\
+f_2 F_{m_1,m_2} &+ 0 &- \cos(\theta)F_{trek} &+ 0 &= 0\\
+F_{m_1,m_2} &+ 0 &+\sin(\theta)F_{trek} &+ 0 &= m_2 g\\
+\end{array}
+\right.
+\]
+Als we dit uitrekenen zien we dat het fout is. FTS.
+
+\end{document}
