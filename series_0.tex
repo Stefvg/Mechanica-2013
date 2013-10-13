@@ -8,6 +8,9 @@
 \title{Oplossingen Mechanics 2013}
 \author{TODO}
 
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\usepackage[hmarginratio=1:1,top=32mm,columnsep=20pt]{geometry}
+
 
 \begin{document}
 
@@ -60,7 +63,7 @@ r_{a} =
 a_{c} =
 \begin{pmatrix}
 \alpha(t)\cdot (-2a\sin({\theta(t)})-2a\cos({\theta(t))}\cdot\omega(t)^{2}\\
-\alpha(t)\cdot (2a\cos5({\theta(t)})-2a\sin({\theta(t))}\cdot\omega(t)^{2}
+\alpha(t)\cdot (2a\cos({\theta(t)})-2a\sin({\theta(t))}\cdot\omega(t)^{2}
 \end{pmatrix}
 \text{ en }
 r_{a} =
@@ -72,7 +75,7 @@ r_{a} =
 We zien dat de bewegingen van $A$ en $C$ precies gelijk zijn in de $x$ richting.
 We kennen nu ook de volledige plaatsfunctie van $A$.
 \[
-r_{a} = 
+r_{a} =
 \begin{pmatrix}
 2a\cos{(\theta(t))}\\
 0
@@ -93,10 +96,24 @@ Dit is in functie van t. Hier halen we $\theta$ in functie van $t$ uit.
 \[
 \theta(t) = \arccos{\left(\frac{v_{O}t + 2a\cos{\theta}}{2a}\right)}
 \]
-In deze vergelijking weten we alles.
+In deze vergelijking weten we alles.\\
+$\omega(t)$ = $\frac{-1}{\sqrt{a^2-(a*cos(\theta)+t)^2}}$\hspace{3cm} $\alpha$ = $\frac{-a*cos(\theta) + t}{(a^2- (a*cos(\theta) +t)^2)^{3/2}}$\\
 
+\HRule \\
+Voor t=0 wordt dit: $\theta(t)$=$\theta$ =$30^\circ$\hspace{1cm} $\omega$ = -4\hspace{1cm} $\alpha$ = -27.71\\
+Invullen...
 \subsection{K4}
+\subsubsection*{gegeven}
+$\omega$= 10 rad/s, OA=AB=0.8m, AM=MB, $v_By$=$a_By$=0
+\subsubsection*{gevraagd}
+$v_B$, $a_B$, $v_M$, $a_M$
+\subsubsection*{berekeningen}
+De baan van M: (x/0.4$)^2$ + (y/1.2$)^2$ =1 (eclipse)\\
+Dit kan je zien door de positie van M op t=0 (M ligt dan op 1.2) en wanneer AO loodrecht op de x-as staat; dan ligt M op 0.4.\\
 
+\noindent 10 rad/s voor 1 sec = $\frac{10*180}{\pi}$  = 572.9$5^\circ$ $\rightarrow$ OA op $213^\circ$\\
+
+Geen idee hoe op te lossen
 \subsection{B1}
 
 \subsection{B2}
@@ -125,7 +142,7 @@ $|v|= 900\frac{km}{h} = 250\frac{m}{s}$
 \subsubsection*{gevraagd}
 $n: n \le r$
 \subsubsection*{berekeningen}
-We weten dat $a_n=\frac{v^2}{r}$ en  $a_t = \frac{dv}{dt}$.
+We weten dat $a_n=\frac{v^2}{r}$ en $a_t = \frac{dv}{dt}$.
 \[
 a_t=\frac{d(250)}{dt} = 0
 \]
@@ -141,10 +158,20 @@ n= \frac{|v|^2}{4g} = \frac{250^2}{4 \cdot 10} = 1562.5m
 \]
 
 \subsection{K2}
+\subsubsection*{gegeven}
+R=0.1m
+\subsubsection*{gevraagd}
+$a_{t}$, $a_{n}$
+\subsubsection*{berekeningen}
+$\omega_{start}$ = $\frac{1200*360*\pi}{180*60}$ rad/s = 125.66 rad/s\\
+$\omega_{eind}$ = $\frac{120*360*\pi}{180*60}$ rad/s = 12.56 rad/s\\
+$\Rightarrow$ $\alpha_{vert}$ = $\frac{12.56 - 125.66}{10}$  rad/s = -11.31 rad/s (vertraging!)\\
 
+\noindent$a_n$ = R*$\omega_{start}^2$ = 1579.04 m / $s^2$ (= 159.99 $\pi^2$ m/$s^2$)\\
+$a_t$ = R*$\alpha_{vert}$ = -1.13 m/ $s^2$ (= -0.36 $\pi$ m /$s^2$)
 \subsection{K3}
 \subsubsection*{gegeven}
-$r_{x}(t) = 3t^{2} m$, 
+$r_{x}(t) = 3t^{2} m$,
 $v_{y}(t)= -\sqrt{13} \frac{m}{s}$
 \subsubsection*{gevraagd}
 $a_{t}$, $a_{n}$
@@ -182,7 +209,7 @@ r_{p}(t)=
 -\cos{(\theta(t)}\cdot R\\
 -\sin{(\theta(t)}\cdot R
 \end{pmatrix}
-\] 
+\]
 We kunnen dit afleiden naar de tijd, maar we weten dat de snelheid van $P$ in de $y$ richting constant is:
 \[
 v_{p}(t)=
@@ -201,7 +228,7 @@ R\cdot(-\sin{(\theta(t))}\omega(t)^{2} + \alpha(t)\cos{(\theta(t))})
 \]
 met $a_{py} = 0$ want $v_{py}$ is constant.
 \\\\
-Hieruit kunnen we halen dat 
+Hieruit kunnen we halen dat
 \[
 \omega(t) = -\frac{v_{py}}{\cos{(\theta(t))}\cdot R}
 \]
@@ -223,8 +250,9 @@ en
 \[
 a = \sqrt{a_{t}^{2} + a_{n}^{2}}
 \]
-Hierin kennen we opnieuw alle 'onbekenden'. Na invullen blijkt dat $a=0.36\frac{m}{s^{2}}$ op het gegeven moment.
+Hierin kennen we opnieuw alle 'onbekenden'. Na invullen blijkt dat $a=0.36\frac{m}{s^{2}}$ op het gegeven moment.\\
 
+\noindent \underline{Opemrking (Nelis):} uw straal kan nooit negatief zijn al veranderd het in deze oefening niet veel met R=0.08m (beetje spelen met + en -)
 \subsection{B2}
 
 \subsection{B3}
@@ -242,7 +270,7 @@ $|OA|=0.35m$, $|AB| = 0.60m$, $\theta = \hat{AOB} = 45^\circ$, $180^\circ-\gamma
 \subsubsection*{gevraagd}
 $\omega_{CB}$
 \subsubsection*{berekeningen}
-We zullen $\omega_{BC}$ bepalen met een tussenstap.
+We zullen $\omega_{BC}$ bepalen met een tussenstap.\\
 Stap 1: We bepalen een punt waarvan we de snelheid zoeken. We kiezen hier voor $P=A$.\\
 Stap 2: We bepalen het bewegende assenstelsel $O'x’y’z’$ We kiezen hier voor een translerend bewegend assenstelsel met $O'=A$ en $x'=AB$. Omdat dit een translerend assenstelsel is, dat niet roteerd, is: $e_{x} = e_{x'}$, $e_{z} = e_{z'}$, $e_{z} = e_{z'}$.
 We weten dat:
@@ -251,27 +279,27 @@ We weten dat:
 \]
 Nu zien we dat:
 \[
-\vec{v_{bs}} = \vec{v_{A}} = \omega_{OA} \times (\vec{r_{A}} - \vec{r_{O}}) = 
+\vec{v_{bs}} = \vec{v_{A}} = \omega_{OA} \times (\vec{r_{A}} - \vec{r_{O}}) =
 \begin{vmatrix}
 \vec{e_{x}} & \vec{e_{x}} & \vec{e_{x}}\\
 0 & 0 & \omega_{OA}\\
 |OA|\cos{\theta(t)} & |OA|\sin{\theta(t)} & 0
-\end{vmatrix} 
+\end{vmatrix}
 =
 \begin{pmatrix}
 -\omega_{OA} \cdot |OA|\sin{\theta(t)}\\
--\omega_{OA} \cdot |OA|\cos{\theta(t)}
+-\omega_{OA} \cdot |OA|\cos{\theta(t)}\\
 0
 \end{pmatrix}
 \]
 We weten ook dat:
 \[
-\vec{v_{br}} = \omega_{AB} \times (\vec{r_{B}} - \vec{r_{A}}) = 
+\vec{v_{br}} = \omega_{AB} \times (\vec{r_{B}} - \vec{r_{A}}) =
 \begin{vmatrix}
 \vec{e_{x}} & \vec{e_{x}} & \vec{e_{x}}\\
 0 & 0 & \omega_{AB}\\
 |AB| & 0 & 0
-\end{vmatrix} 
+\end{vmatrix}
 =
 \begin{pmatrix}
 0\\
@@ -281,12 +309,12 @@ We weten ook dat:
 \]
 Ten slotte weten we nog dat:
 \[
-\vec{v_{ba}} = \omega_{CB} \times (\vec{r_{B}} - \vec{r_{C}}) = 
+\vec{v_{ba}} = \omega_{CB} \times (\vec{r_{B}} - \vec{r_{C}}) =
 \begin{vmatrix}
 \vec{e_{x}} & \vec{e_{x}} & \vec{e_{x}}\\
 0 & 0 & \omega_{CB}\\
 |BC|\cos{\gamma(t)} & |BC|\sin{\gamma(t)} & 0
-\end{vmatrix} 
+\end{vmatrix}
 =
 \begin{pmatrix}
 -\omega_{CB} \cdot |BC|\sin{\gamma(t)}\\
@@ -312,7 +340,7 @@ is om te vormen naar
 \omega_{CB} = \frac{\omega_{OA} \cdot |OA|\sin{\theta(t)}}{|BC|\sin{\gamma(t)}}
 \]
 In deze vergelijking kennen we enkel $|BC|$ niet.\\
-We kunnen $|OC|$ berekenen via de cosinusregel: 
+We kunnen $|OB|$ berekenen via de cosinusregel:
 \[
 |OB| = \sqrt{|OA|^{2} + |AB|^{2} - 2 \cdot |OA| \cdot |AB| \cdot \cos(\hat{OAB})}
 \]
@@ -382,7 +410,41 @@ Antwoord:
 $\Delta t_{A\rightarrow B} + \Delta t_{B\rightarrow A} = 800$ s.\\
 
 \subsection{B2}
+\subsubsection*{gegeven}
+AB=BC=0.5m, $\omega_{AB}$= 2rad/s, $R_C$=0.2m, AOpp =1m
+\subsubsection*{gevraagd}
+$\omega_C$, $\omega_{BC}$ (tov AB)
+\subsubsection*{berekeningen}
+Laat het bewegend assenstelsel met AB meebewegen, dan is de sleepsnelheid gelijk aan:
+\[
+\vec{v_{s}} =
+\begin{vmatrix}
+\vec{e_{x}} & \vec{e_{x}} & \vec{e_{x}}\\
+0 & 0 & \omega_{AB}\\
+0 & -0.8 & 0
+\end{vmatrix}
+\]
+\[
+\vec{v_{s}} =
+\begin{pmatrix}
+0.8*\omega_{AB}\\
+0\\
+0
+\end{pmatrix} = 
+\begin{pmatrix}
+1.6\\
+0\\
+0
+\end{pmatrix}
+\]
+Aangezien de absolute snelheid van C horizontaal is, is dit gelijk aan de sleepsnelheid, en is
+de relatieve snelheid dus gelijk aan 0 m/s.\\\
+De hoeksnelheid van de staaf BC is gelijk aan $\frac{v_{CB}}{|BC|}$. Aangezien $v_{CB}$ gelijk is aan de relatieve snelheid van C, is de hoeksnelheid van de staaf BC gelijk aan 0 rad/s (tov AB)\\
 
+\noindent De hoeksnelheid van het wieltje kunnen we uit de absolute snelheid van C en de straal van het wieltje halen. Deze is:
+\[
+\vec{V_C} = R*\omega \rightarrow \omega= \frac{\vec{V_C}}{R} = \frac{1.6}{0.2} = \text{8 rad/s}
+\]
 \subsection{B3}
 
 \subsection{B4}
