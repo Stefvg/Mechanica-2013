@@ -67,51 +67,49 @@ We kunnen het tweede postulaat van Newton op beide blokken toepassen, in beide d
 Blok $m_1$:
 \[
 \begin{array}{l l}
-x: & F - F_{w_{m_1,m_2}} - F_{w_{m_1,grond}} = m a_{m_1x}\\
-y: & F_{n_{m_1}} -F_{m_1,m_2} - F_{z_{m_1}} = m a_{m_1y}\\
+x: & F- F_{w_{grond,m_1}} -F_{w_{m_1,m_2}}=m_1a\\
+y: & F_{n_{grond,m_1}}-F_{n_{m_1,m_2}}-F_{z_{m_1}}=0\\
 \end{array}
 \]
 Blok $m_2$:
 \[
 \begin{array}{l l}
-x: & F_{w_{m_1,m_2}} - \cos(\theta)F_{trek} = m a_{m_2x}\\
-y: & \sin(\theta)F_{trek} + F_{m_1,m_2} - F_{z_{m_2}} = m a_{m_2y}\\
+x: & F_{w_{m_1,m_2}} - \cos(\theta)F_{trek} = 0\\
+y: & F_{n_{m_1,m_2}} + \sin(\theta)F_{trek} - F_{z_{m_2}}=0\\
 \end{array}
 \]
 Dit lijkt een monster van een stelsel - (Dat is het ook!) - maar er zijn een aantal dingen die we weten.
 \[
-a_{m_1y} = 0 \text{ ,  } m a_{m_2x}=0 \text{ ,  }  m a_{m_2y}=0
+F_{z_{m_1}} = m_1g \text{ en } F_{z_{m_2}} = m_1g
 \]
 \[
-F_{w_{m_1,m_2}} = f_2 F_{m_1,m_2} \text{ ,  }F_{w_{m_1,grond}} = f_1 F_{n_{m_1}}
-\]
-\[
-F_{z_{m_1}} = m_1 g \text{ ,  } F_{z_{m_2}} = m_2 g
+F_{w_{m_1,m_2}} = f_2F_{n_{m_1,m_2}} \text{ en } F_{w_{grond,m_1}} = f_1F_{n_{grond,m_1}}
 \]
 
 Als we dit allemaal invullen krijgen we:
 \[
 \left\lbrace
-\begin{array}{l}
-F - f_2 F_{m_1,m_2} - f_1 F_{n_{m_1}} = m a_{m_1x}\\
-F_{n_{m_1}} - F_{m_1,m_2} -  m_1 g  = 0\\
-f_2 F_{m_1,m_2} - \cos(\theta)F_{trek} = 0\\
-\sin(\theta)F_{trek} + F_{m_1,m_2} - m_2 g = 0\\
+\begin{array}{l l l l l}
+
+f_2F_{n_{m_1,m_2}} &- \cos(\theta)F_{trek} &+ 0 &+ 0 &= 0\\
+F_{n_{m_1,m_2}} &+ \sin(\theta)F_{trek} &+ 0 &+ 0 &= m_2g\\
+ f_2F_{n_{m_1,m_2}} &+ 0 &+ f_1F_{n_{grond,m_1}} &+ m_1a &= F\\
+-F_{n_{m_1,m_2}} &+ 0 &+F_{n_{grond,m_1}} &+ 0 &= m_1g\\
 \end{array}
 \right.
 \]
 Dit kunnen we omvormen tot een stelsel dat makkelijk op te lossen is.
 
 \[
-\left\lbrace
-\begin{array}{l l l l l}
-f_2 F_{m_1,m_2} &+ f_1 F_{n_{m_1}} &+ 0 & m a_{m_1x} &=F\\
-- F_{m_1,m_2} &+ F_{n_{m_1}}  &+ 0 &+ 0 &= m_1 g\\
-f_2 F_{m_1,m_2} &+ 0 &- \cos(\theta)F_{trek} &+ 0 &= 0\\
-F_{m_1,m_2} &+ 0 &+\sin(\theta)F_{trek} &+ 0 &= m_2 g\\
+\left(
+\begin{array}{l l l l | l}
+f_2 & -\cos(\theta) & 0 & 0 & 0\\
+1 &  \sin(\theta) & 0 & 0 & m_2g\\
+f_2 & 0 & f_1 & m_1 & F\\
+-1 & 0 & 1 & 0 & m_1g
 \end{array}
-\right.
+\right)
 \]
-Als we dit uitrekenen zien we dat het fout is. FTS.
+Als we dit uitrekenen zien we dat $a = 34.9$ en $F_{trek} = 8.3$. Dit lijkt fout.
 
 \end{document}

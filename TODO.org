@@ -34,7 +34,7 @@
   - [ ] K4 stefvg
   - [ ] B1 KarenRaets
   - [ ] B2 Matzy93
-  - [ ] B3 NorfairKing
+  - [X] B3 NorfairKing
 
 * TODO Reeks 2
 * TODO Reeks 3
