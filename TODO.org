@@ -29,7 +29,7 @@
 * DELEGATED Reeks 1
   CLOSED: [2013-10-12 Sam 19:09] DEADLINE: <2013-10-16 Mit>
   - [ ] K1 Matzy93
-  - [ ] K2 NorfairKing
+  - [X] K2 NorfairKing
   - [ ] K3 nooby4ever
   - [ ] K4 stefvg
   - [ ] B1 KarenRaets
